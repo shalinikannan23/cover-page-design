@@ -1,28 +1,3 @@
-
-
-### Step 1:
-
-Design the following book cover page using HTML and CSS.Create a new Django project using "django-admin startproject"command.
-
-
-
-### Step 2:
-
-Define urls.py and views.py for the website .Allow host access and add the app name under installed apps in settings.py.And the static dirs in the settings.py.
-
-### Step 3:
-
-Create a templates folder under the app folder followed by a folder under templates with the app name followed by html file named bookdesign.html. Create a static folder under static create images folder and insert the images that need to be displayed. 
-
-### Step 4:
-
-Write HTML and CSS code in the file save it and run the app using python manage.py makemigrations and python manage.py migrate commands .Run the Server using "python3 manage.py runserver 0:80" command.
-
-### PROGRAM :
-
-BOOKDESIGN.HTML
-
-```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -38,7 +13,7 @@ BOOKDESIGN.HTML
              margin-left: auto;
              margin-right: auto ;
              padding: 20px;
-             background-image: url('/static/images/dna1.jpg');
+             background-image: url('/static/images/web.jpg');
   background-size: cover;
   background-repeat: no-repeat;
          }
@@ -50,11 +25,11 @@ BOOKDESIGN.HTML
              
          }
          .tophr{
-             color: red;
+             color:#e36f2f;
               width: 180px;
          }
          hr{
-             color: red;
+             color:#e36f2f;
             
          }
          .booktitle{
@@ -98,7 +73,7 @@ BOOKDESIGN.HTML
   margin-right: 20px;
 }
 .bottomhr { 
-    color: red;
+    color:#e36f2f;
               width: 400px;
 
 }
@@ -109,10 +84,10 @@ img {
     vertical-align: bottom;
 }
 .edition {
-    color:white;
+    color:#e36f2f;
              font-family: Arial, Helvetica, sans-serif;
  font-size: 22px;
- line-height: 100px;
+ line-height: 20px;
  
 }
 
@@ -140,12 +115,3 @@ img {
         
     
 </html>
-```
-### OUTPUT:
-
-![OUTPUT](./images/responsivewebdesign.png)
-
-
-### RESULT: 
-   
-   Successfully designed a web page.
